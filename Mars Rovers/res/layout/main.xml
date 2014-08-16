@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/setPosAndDir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="enter the position and direction(ex. 3 3 N)" android:textSize="12dp" android:onClick="doClick"/>
+
+    <EditText
+        android:id="@+id/setExplore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="set how to explore the plateau (ex. LMLMLMLMM)" android:textSize="12dp" android:onClick="doClick"/>
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Run" />
+
+</LinearLayout>
